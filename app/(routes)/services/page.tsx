@@ -20,9 +20,10 @@ const ServicesPage = () => {
           
           </h1>
           <p className="mb-3 text-xl text-gray-300">
-            Ofrezco una variedad de servicios para ayudar a llevar tu proyecto al siguiente nivel,
-            desde el desarrollo web hasta la optimización de rendimiento y la consultoría técnica.
-            <button className="pc-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Contacta conmigo</button>
+            Ofrezco soluciones basadas en datos para ayudarte a tomar mejores decisiones.
+            Desde la construcción de pipelines ETL hasta dashboards y modelos de machine learning,
+            transformo datos en información útil y accionable. <br /> 
+            <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Trabajemos juntos</button>
           </p>
         </div>
         {/* Slider(Carrusel) */}
