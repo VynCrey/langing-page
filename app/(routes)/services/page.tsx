@@ -23,7 +23,7 @@ const ServicesPage = () => {
             Ofrezco soluciones basadas en datos para ayudarte a tomar mejores decisiones.
             Desde la construcción de pipelines ETL hasta dashboards y modelos de machine learning,
             transformo datos en información útil y accionable. <br /> 
-            <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Trabajemos juntos</button>
+            {/*<button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Trabajemos juntos</button> */}
           </p>
         </div>
         {/* Slider(Carrusel) */}
