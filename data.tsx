@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Github } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Github } from "lucide-react";
 import { Database, BarChart, Brain, Settings, Cloud } from "lucide-react";
 
 export const socialNetworks = [
@@ -13,6 +13,7 @@ export const socialNetworks = [
         src: "https://github.com/VynCrey",
     }
 ];
+
 
 
 export const itemsNavbar = [
@@ -39,13 +40,8 @@ export const itemsNavbar = [
         title: "Target",
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
-    },
-    {
-        id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
-    },
+    }
+    
 ];
 
 export const dataAboutPage = [
