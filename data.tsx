@@ -1,11 +1,7 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Github } from "lucide-react";
+import { Database, BarChart, Brain, Settings, Cloud } from "lucide-react";
 
 export const socialNetworks = [
-    {
-        id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
-    },
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
@@ -13,19 +9,9 @@ export const socialNetworks = [
     },
     {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
-    },
+        logo: <Github size={30} strokeWidth={1} />,
+        src: "https://github.com/VynCrey",
+    }
 ];
 
 
@@ -65,31 +51,31 @@ export const itemsNavbar = [
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        title: "Data Pipeline Engineer",
+        subtitle: "Proyecto personal",
+        description: "•  Desarrollo de pipeline ETL en Python\n• Extracción de datos desde APIs\n• Limpieza y transformación con Pandas\n• Almacenamiento en base de datos\n• Automatización de procesos de datos",
+        date: "DATA PIPELINE ",
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Data Analyst - Dashboard de Ventas",
+        subtitle: "Proyecto práctico",
+        description: "• Análisis de datos comerciales\n• Creación de KPIs\n• Visualización con herramientas interactivas\n• Identificación de tendencias y patrones",
+        date: "DASHBOARD",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Machine Learning Project",
+        subtitle: "Proyecto aplicado",
+        description: "• Desarrollo de modelo predictivo\n• Feature engineering\n• Evaluación de métricas\n• Implementación de predicción",
+        date: "MACHINE LEARNING",
     },
     {
         id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
+        title: "Automatización de Datos",
+        subtitle: "Proyecto personal",
+        description: "• Automatización de procesos de datos\n• Integración con APIs\n• Optimización de flujos de trabajo\n• Monitoreo y mantenimiento de pipelines\n • Generación de reportes automáticos",
+        date: "AUTOMATIZACIÓN",
     },
 ]
 
@@ -125,80 +111,57 @@ export const dataCounter = [
 ];
 
 export const serviceData = [
-    {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
-    },
-    {
-        icon: <Pencil />,
-        title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
-    },
-    {
-        icon: <Computer />,
-        title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
-    },
-    {
-        icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
-    },
-    {
-        icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-    },
+  {
+    icon: <Database />,
+    title: "Data Engineering",
+    description:
+      "Construcción de pipelines ETL en Python, integración con APIs y automatización de flujos de datos para procesamiento eficiente.",
+  },
+  {
+    icon: <BarChart />,
+    title: "Data Analysis & Dashboards",
+    description:
+      "Análisis de datos, limpieza y creación de dashboards interactivos (Python, SQL, Power BI o Streamlit) para toma de decisiones.",
+  },
+  {
+    icon: <Brain />,
+    title: "Machine Learning",
+    description:
+      "Desarrollo de modelos predictivos (clasificación y regresión), feature engineering y evaluación de métricas.",
+  },
+  {
+    icon: <Settings />,
+    title: "Automatización de Datos",
+    description:
+      "Automatización de procesos con Python: scraping, integración de APIs y generación automática de reportes.",
+  },
+  {
+    icon: <Cloud />,
+    title: "Integración de Datos",
+    description:
+      "Conexión y unificación de múltiples fuentes de datos (APIs, bases de datos, archivos) para centralizar la información.",
+  },
 ];
 
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Movie Recommender",
+        image: "/image-1.png",
+        urlGithub: "https://github.com/VynCrey/ai-movie-recommender",
+        urlDemo: "https://huggingface.co/spaces/Cristiannnnnn/movie-recommender",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
+        title: "Desarrollo Engineer",
+        image: "/image-2.png",
+        urlGithub: "https://github.com/VynCrey",
         urlDemo: "#!",
     },
     {
         id: 3,
         title: "Estrategias Web",
         image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },

@@ -37,14 +37,14 @@ const Introduction = () => {
                     ¡Hola! Soy Cristian, un apasionado desarrollador de software con experiencia en la creación de soluciones innovadoras y eficientes. Me especializo en transformar ideas en aplicaciones funcionales que impulsan el éxito empresarial.
                     </p>
 
-                    <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
+                    <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
                         <Link 
-                        href="/projects" 
+                        href="/portfolio" 
                         className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
                             Proyectos
                         </Link>
                         <Link 
-                        href="/contact" 
+                        href="https://www.linkedin.com/in/cristian-elias-gabriel-monzon/" 
                         className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary">
                             Contacta conmigo
                         </Link>
